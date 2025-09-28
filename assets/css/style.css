@@ -8,6 +8,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 /* Common */
 
 .main-content {
@@ -63,7 +67,6 @@ body {
 
 .hero .btn {
   background: rgb(245, 163, 10);
-  color: black;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
