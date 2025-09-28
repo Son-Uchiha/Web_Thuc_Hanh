@@ -103,4 +103,9 @@ body {
   .features .body {
     flex-direction: column;
   }
+
+  .hero .img-hero {
+    width: 300px;
+    height: 300px;
+  }
 }
