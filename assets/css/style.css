@@ -202,11 +202,6 @@ ul {
     margin-top: 2rem;
   }
 
-  .hero .img-hero {
-    width: 400px;
-    height: 400px;
-  }
-
   .hero h1 {
     font-size: 4rem;
     font-weight: 500;
@@ -220,11 +215,6 @@ ul {
 }
 
 @media (max-width: 700px) {
-  .hero .img-hero {
-    width: 300px;
-    height: 300px;
-  }
-
   .hero h1 {
     font-size: 2rem;
     font-weight: 500;
@@ -249,6 +239,11 @@ ul {
 }
 
 @media (max-width: 400px) {
+  .hero .img-hero {
+    width: 300px;
+    height: 300px;
+  }
+
   .hero h1 {
     font-size: 30px;
     font-weight: 500;
