@@ -187,6 +187,7 @@ ul {
 
 .footer-col .fab {
   font-size: 27px;
+  color: black;
 }
 
 @media (max-width: 1000px) {
