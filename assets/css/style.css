@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Common */
 body {
   font-family: Arial, sans-serif;
 }
@@ -12,7 +13,10 @@ a {
   text-decoration: none;
   color: black;
 }
-/* Common */
+
+ul {
+  list-style: none;
+}
 
 .main-content {
   width: 1270px;
@@ -100,6 +104,7 @@ a {
 /* Intro */
 .intro .body {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .intro h3 {
@@ -155,6 +160,35 @@ a {
   grid-area: img7;
 }
 
+/* footer */
+.footer .body {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf1dc;
+  color: rgb(93, 93, 93);
+}
+
+.footer-col h4 {
+  margin-bottom: 20px;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: rgb(93, 93, 93);
+}
+
+.footer-col input {
+  margin-bottom: 20px;
+}
+
+.footer-col .fab {
+  font-size: 27px;
+}
+
 @media (max-width: 1000px) {
   .hero .body {
     flex-direction: column;
@@ -205,6 +239,11 @@ a {
       "img1 img1 img2"
       "img4 img5 img7"
       "img3 img6 img7";
+  }
+  .footer .body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
